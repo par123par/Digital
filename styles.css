@@ -1,0 +1,30 @@
+body {
+  background-color: #282c34;
+  color: #61dafb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock {
+  font-size: 5vw;
+  background-color: #20232a;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(7, 7, 7, 0.5);
+  text-align: center;
+}
+
+.clock {
+  font-size: 10vw;
+}
+
+@media (max-width: 400px) {
+  .clock {
+    font-size: 12vw;
+    padding: 10px 20px;
+  }
+}
